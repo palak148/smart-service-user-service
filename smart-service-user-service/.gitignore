@@ -1,0 +1,89 @@
+# --------------------------
+# Default GitHub Java ignores
+# --------------------------
+
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs
+hs_err_pid*
+replay_pid*
+
+# --------------------------
+# Spring Boot & Maven ignores
+# --------------------------
+
+# Maven target directory
+target/
+*/target/
+
+# Maven Wrapper
+.mvn/
+mvnw
+mvnw.cmd
+
+# --------------------------
+# IDE Files (IntelliJ, Eclipse, VSCode)
+# --------------------------
+
+# IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# VS Code
+.vscode/
+
+# --------------------------
+# OS Files
+# --------------------------
+
+.DS_Store
+Thumbs.db
+
+# --------------------------
+# Spring Boot configuration (avoid secrets in repo)
+# --------------------------
+
+application.properties
+application.yml
+application-dev.properties
+application-local.properties
+
+# --------------------------
+# Logs & temp files
+# --------------------------
+
+logs/
+*.out
+*.pid
+
+# --------------------------
+# Node (When you add UI later)
+# --------------------------
+
+node_modules/
