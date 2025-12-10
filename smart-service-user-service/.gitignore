@@ -54,6 +54,7 @@ mvnw.cmd
 .project
 .classpath
 .settings/
+*.factorypath
 
 # VS Code
 .vscode/
